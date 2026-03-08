@@ -110,19 +110,22 @@ Your writing must sound human and avoid typical "AI-generated" patterns. Follow 
 1. **FORBIDDEN VOCABULARY**: Never use these words (or their equivalents in ${languageNames[language]}):
    - Additionally, Moreover, Furthermore, In conclusion, To sum up.
    - Delve, Embark, Tapestry, Testament, Unleash, Vibrant, Bolster, Underscore, Elevate, Foster.
-   - (For Japanese): "〜といえます", "〜といっても過言ではありません", "〜役割を果たしています", "〜彩ります", "〜自分へのご褒美".
+   - "Nestled", "In the heart of", "Boasts", "Diverse array", "Groundbreaking", "Revolutionary", "Stands as".
+   - (For Japanese): "〜といえます", "〜といっても過言ではありません", "〜役割を果たしています", "〜彩ります", "〜自分へのご褒美", "〜を彷彿とさせます".
 
-2. **STRUCTURE CONSTRAINTS**:
+2. **STRUCTURE & STYLE CONSTRAINTS**:
+   - **No "Inline-header vertical lists"**: Do NOT use bolded headers inside bullet points followed by a colon (e.g., "**Topic**: Description"). Provide information in natural prose or simple bullets.
    - **No "Not only... but also..."**: Avoid this specific contrast pattern. Use simpler, direct statements.
-   - **No "Rule of Three"**: Do not list things in groups of three (e.g., "adjective, adjective, and adjective").
-   - **No "Inline-header vertical lists"**: Do not use bolded headers inside bullet points followed by a colon (e.g., "**Topic**: Description"). Provide information in natural prose or simple bullets without bold headers.
-   - **No Superficial Analysis**: Do not end sentences with "-ing" phrases that summarize the significance (e.g., "...showcasing its importance").
-   - **Prefer Simple Copulas**: Use "is/are" (または「〜です」「〜だ」) instead of wordy alternatives like "serves as", "represents", or "stands as".
+   - **No "Rule of Three"**: Do not list things in groups of three (e.g., "fast, reliable, and affordable").
+   - **No "Despite" Formula**: Avoid ending posts with "Despite [challenges], [positive outlook]" style conclusions.
+   - **No Superficial "-ing" Analysis**: Do not end sentences with present participle phrases that summarize significance (e.g., "...showcasing its quality", "...reflecting its heritage").
+   - **No Puffery or Over-Emphasis on "Legacy"**: Do not force-link simple products to "broader trends", "cultural heritage", or "lasting impact" unless specifically requested. Avoid "paving the way for...".
+   - **Avoid Vague Attributions**: Never mention "Experts argue", "Industry reports suggest", or "Some say" without specific context.
 
-3. **TONE & STYLE**:
-   - Use concrete facts instead of generic puffery (e.g., instead of "revolutionary product", describe what it actually does).
-   - For SNS (X, TikTok, Instagram), use the actual way humans talk on those platforms. Be punchy, direct, and slightly informal if the platform allows.
-   - Avoid "hedging" or overly polite AI preambles.
+3. **SNS-SPECIFIC GUIDANCE**:
+   - **Punchy & Direct**: Use "is/are" (または「〜です」「〜だ」) instead of wordy alternatives like "serves as" or "represents".
+   - **No Emoji-Decorated Headings**: Do not put emojis at the start of every bullet point or header in a decorative, formulaic way. Use emojis naturally within the text.
+   - **Be Informal & Human**: For X, TikTok, and Instagram, talk like a real user. Use platform-specific slang correctly or keep it simple. Avoid "hedging" or overly polite AI preambles.
 
 For each platform, you must generate:
 1. 'text': The catchphrase or post text itself, strictly adhering to the character limits, tone, emojis, and hashtags typical of that platform in ${languageNames[language]}.
