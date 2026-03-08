@@ -115,6 +115,7 @@ Your writing must sound human and avoid typical "AI-generated" patterns. Follow 
 2. **STRUCTURE CONSTRAINTS**:
    - **No "Not only... but also..."**: Avoid this specific contrast pattern. Use simpler, direct statements.
    - **No "Rule of Three"**: Do not list things in groups of three (e.g., "adjective, adjective, and adjective").
+   - **No "Inline-header vertical lists"**: Do not use bolded headers inside bullet points followed by a colon (e.g., "**Topic**: Description"). Provide information in natural prose or simple bullets without bold headers.
    - **No Superficial Analysis**: Do not end sentences with "-ing" phrases that summarize the significance (e.g., "...showcasing its importance").
    - **Prefer Simple Copulas**: Use "is/are" (または「〜です」「〜だ」) instead of wordy alternatives like "serves as", "represents", or "stands as".
 
