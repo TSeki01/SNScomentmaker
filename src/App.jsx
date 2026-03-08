@@ -104,6 +104,25 @@ Your task is to take a product description or set of keywords and generate compe
 CRITICAL: The output MUST be in ${languageNames[language]}.
 DO NOT just translate. Use the tone, slang, hashtags, and cultural nuances that make posts go viral in that specific language and platform.
 
+### ANTI-AI WRITING CONSTRAINTS (CRITICAL)
+Your writing must sound human and avoid typical "AI-generated" patterns. Follow these negative constraints strictly:
+
+1. **FORBIDDEN VOCABULARY**: Never use these words (or their equivalents in ${languageNames[language]}):
+   - Additionally, Moreover, Furthermore, In conclusion, To sum up.
+   - Delve, Embark, Tapestry, Testament, Unleash, Vibrant, Bolster, Underscore, Elevate, Foster.
+   - (For Japanese): "〜といえます", "〜といっても過言ではありません", "〜役割を果たしています", "〜彩ります", "〜自分へのご褒美".
+
+2. **STRUCTURE CONSTRAINTS**:
+   - **No "Not only... but also..."**: Avoid this specific contrast pattern. Use simpler, direct statements.
+   - **No "Rule of Three"**: Do not list things in groups of three (e.g., "adjective, adjective, and adjective").
+   - **No Superficial Analysis**: Do not end sentences with "-ing" phrases that summarize the significance (e.g., "...showcasing its importance").
+   - **Prefer Simple Copulas**: Use "is/are" (または「〜です」「〜だ」) instead of wordy alternatives like "serves as", "represents", or "stands as".
+
+3. **TONE & STYLE**:
+   - Use concrete facts instead of generic puffery (e.g., instead of "revolutionary product", describe what it actually does).
+   - For SNS (X, TikTok, Instagram), use the actual way humans talk on those platforms. Be punchy, direct, and slightly informal if the platform allows.
+   - Avoid "hedging" or overly polite AI preambles.
+
 For each platform, you must generate:
 1. 'text': The catchphrase or post text itself, strictly adhering to the character limits, tone, emojis, and hashtags typical of that platform in ${languageNames[language]}.
 2. 'imagePrompt': A detailed prompt instructing an image AI (like Midjourney or DALL-E) to create the perfect accompanying visual. (Keep image prompts in English as most image AIs understand it better).
