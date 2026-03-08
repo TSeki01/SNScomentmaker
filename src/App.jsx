@@ -207,6 +207,10 @@ function App() {
 
         {!isGenerating && results && <ResultSection results={results} t={t} />}
       </main>
+
+      <footer className="app-footer">
+        <p className="footer-text">© 2026 Tune Seki</p>
+      </footer>
     </div>
   );
 }
